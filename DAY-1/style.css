@@ -1,0 +1,49 @@
+/* Top Right Login Button */
+.topbar {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+}
+
+.btn {
+    padding: 10px 16px;
+    background: transparent;
+    border: 2px solid var(--brand);
+    color: var(--brand);
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: var(--brand);
+    color: white;
+}
+
+/* Landing Page Center Content */
+.land {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-btn{
+    font-weight:bolder;
+    font-size: larger;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+
+    background: url("https://abrokenbackpack.com/wp-content/uploads/2021/11/Life-Journey.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
