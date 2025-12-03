@@ -1,0 +1,63 @@
+/* login page css */
+
+:root {
+    --brand: #0b84ff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#eef6ff, #dfeeff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #cfd7e3;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: var(--brand);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.back {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: var(--brand);
+    text-decoration: none;
+}
+
