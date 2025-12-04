@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-linear-to-r from-cyan-800 to-blue-800 text-white flex justify-center">
+    <div class="container bg-white/10 w-120 mt-30 mb-50 p-10 rounded-2xl">
+        <h1 id="heading" class="text-2xl font-bold">Simple JS Quiz</h1>
+        <p class="text-cyan-600 mb-8">Question <span id="no">1 </span>of 3</p>
+        <h3 class="mb-7 text-lg" id="question">Which keyword declares a constant in JavaScript?</h3>
+        <div>
+            <p id="op1" class="option bg-white/25 p-2 rounded-lg mb-2 text-lg">var</p>
+            <p id="op2" class="option bg-white/25 p-2 rounded-lg mb-2 text-lg">let</p>
+            <p id="op3" class="option bg-white/25 p-2 rounded-lg mb-2 text-lg">const</p>
+            <p id="op4" class="option bg-white/25 p-2 rounded-lg mb-2 text-lg">static</p>
+        </div>
+        <div class="flex justify-end">
+        <button id="btn" class="text-cyan-800 bg-teal-500 p-2 px-4 rounded-full mt-2">Next</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+</body>
+</html>
+
+<!--bg-sky-900-->
