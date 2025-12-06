@@ -1,0 +1,9 @@
+@keyframes movex{
+    0%{tranform:translateX(0);}
+    50%{transform:translateX(40px);}
+    100%{transform:translateX(0);}
+}
+
+.animate_movex{
+    animation: movex 1s infinite;
+}

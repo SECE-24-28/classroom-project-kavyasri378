@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>List Page</title>
+</head>
+<body class="overflow-x-hidden">
+    <!--top section-->
+    <div class="top flex justify-between bg-green-950 text-white py-1 px-8 mb-3">
+        <p class="flex"><svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px" fill="white"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg> +9102012345879</p>
+        <p>Get 50% off on Selected Items | Shop Now</p>
+        <div>
+        <select>
+            <option value="Eng">Eng</option>
+            <option value="Tam" class="text-black">Tam</option>
+            <option value="Hindi" class="text-black">Hindi</option>
+        </select>
+        <select >
+            <option value="Location">Location</option>
+            <option value="cbe" class="text-black">cbe</option>
+            <option value="chennai" class="text-black">chennai</option>
+        </select>
+        </div>
+    </div>
+
+    <!--nav bar-->
+
+    <div class="flex justify-evenly items-baseline p-3 mb-3">
+        <p class="text-green-950 font-bold text-2xl">ShopCart</p>
+        <select class="text-black text-lg">
+            <option value="Category">Category</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Home items">Home items</option>
+        </select>
+        <p class="text-lg">Deals</p>
+        <p class="text-lg">What's New</p>
+        <p class="text-lg">Delivery</p>
+        <div class="flex bg-gray-200 w-64 relative p-2 rounded-lg justify-around">
+            <input type="text" placeholder="Search product" class="border-none focus:outline-none focus:ring-0"/>
+            <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-3" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+        </div>
+        <p class="flex text-lg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg> Account</p>
+        <p class="flex text-lg"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg> cart</p>
+    </div>
+
+    <!--hero-->
+    <div class="flex justify-around bg-orange-200 px-3 py-6 w-[1365px] m-auto items-center mb-5">
+        <div>
+            <p class="text-2xl font-bold text-green-950 mb-5">Grap Upto 50% Off On Selected Headphone<br> Mobiles and laptops</p>
+            <button class="animate_movex bg-green-950 text-white text-xl px-3 py-2 shadow-xl rounded-lg hover:scale-110">Buy now</button>
+        </div>
+        <div>
+            <img src="/image/hero image.png" alt="image with headphone" width="400" height="400">
+        </div>
+    </div>
+
+    <!--layer 2-->
+    <div class="flex justify-between w-[1365px] m-auto mb-6">
+        <div class="flex space-x-2">
+            <select class="bg-gray-200 text-black px-3 rounded-lg">
+                <option value="Product">Product</option>
+            </select>
+            <select class="bg-gray-200 text-black px-3 rounded-lg">
+                <option value="Price">Price</option>
+            </select>
+            <select class="bg-gray-200 text-black px-3 rounded-lg">
+                <option value="Review">Review</option>
+            </select>
+            <select class="bg-gray-200 text-black px-3 rounded-lg">
+                <option value="Color">Color</option>
+            </select>
+            <select class="bg-gray-200 text-black px-3 rounded-lg">
+                <option value="Material">Material</option>
+            </select>
+            <select class="bg-gray-200 text-black px-3 rounded-lg">
+                <option value="Offer">Offer</option>
+            </select>
+            <p class="flex bg-gray-200 text-black px-3 rounded-lg">All Filters <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-240v-80h160v80H400ZM240-440v-80h480v80H240ZM120-640v-80h720v80H120Z"/></svg></p>
+        </div>
+        <div>
+            <select class="bg-gray-100 p-1 rounded-lg border-1">
+                <option value="Sort by">Sort by</option>
+            </select>
+        </div>
+    </div>
+
+    <!--list page-->
+
+    <section class="w-[1365px] m-auto flex justify-around mb-5">
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] rounded-xl shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                <img src="/image/headphone.png" width="200" height="200">
+            </div>
+            <div>
+                <p class="font-bold font-inter">Bost PT headphone</p>
+                <p><del class="text-red-600">$6000</del> <span class="text-green-800 font-bold">$3000</span></p>
+                <p>Table with air purifier,stained venner/black</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] rounded-xl shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                <img src="/image/mobile.png" width="200" height="200">
+            </div>
+            <div>
+                <p class="font-bold font-inter">Bost PT Smartphone – 4 Colors</p>
+                <p><del class="text-red-600">$30000</del> <span class="text-green-800 font-bold">$23000</span></p>
+                <p>Fast processor, vivid display, long battery</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] rounded-xl shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                <img src="https://wonderfulengineering.com/wp-content/uploads/2020/11/10-best-Wireless-Earbuds-8.jpg" width="200" height="200">
+            </div>
+            <div>
+                <p class="font-bold font-inter">Bost PT Wireless Earbuds</p>
+                <p><del class="text-red-600">$1000</del> <span class="text-green-800 font-bold">$500</span></p>
+                <p>Touch control, quick charge, travel‑friendly</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] rounded-xl shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                <img src="/image/laptop.png" width="1200" height="1200" class="p-3 py-8">
+            </div>
+            <div>
+                <p class="font-bold font-inter">Bost PT Ultrabook – Silver</p>
+                <p><del class="text-red-600">$100000</del> <span class="text-green-800 font-bold">$90000</span></p>
+                <p>Slim design, SSD speed, clear screen</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] rounded-xl shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                <img src="/image/tablet.png" width="300" height="200" class="p-3 py-8">
+            </div>
+            <div>
+                <p class="font-bold font-inter">Bost PT Smart Tablet + Keyboard</p>
+                <p><del class="text-red-600">$20000</del> <span class="text-green-800 font-bold">$11000</span></p>
+                <p>Detachable keyboard, vibrant touchscreen</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-[1365px] m-auto flex justify-around mb-5">
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/saree.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                
+            </div>
+            <div>
+                <p class="font-bold font-inter">Summer Dress – Floral Print</p>
+                <p><del class="text-red-600">$3000</del> <span class="text-green-800 font-bold">$1000</span></p>
+                <p>Light, breezy, perfect for sunny days</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 px-2 pt-1 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/salwar.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+            </div>
+            <div>
+                <p class="font-bold font-inter">Stiletto Heels – Red Gloss</p>
+                <p><del class="text-red-600">$1000</del> <span class="text-green-800 font-bold">$700</span></p>
+                <p>Elegant finish, comfy fit, party-ready</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] rounded-xl shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                <img src="/image/shoes.png" width="200" height="200" class="py-9">
+            </div>
+            <div>
+                <p class="font-bold font-inter">Branded shoes</p>
+                <p><del class="text-red-600">$100000</del> <span class="text-green-800 font-bold">$90000</span></p>
+                <p>Sparkling cut, timeless design, gift-worthy</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl 
+            bg-[url('/image/earring.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+            </div>
+            <div>
+                <p class="font-bold font-inter">Diamond earring</p>
+                <p><del class="text-red-600">$600000</del> <span class="text-green-800 font-bold">$500000</span></p>
+                <p>Sparkling cut, timeless design, gift-worthy</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/Necklace.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+            </div>
+            <div>
+                <p class="font-bold font-inter">Necklace</p>
+                <p><del class="text-red-600">$300000</del> <span class="text-green-800 font-bold">$200000</span></p>
+                <p>shinny design, worthy to gift, look glacy</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-[1365px] m-auto flex justify-around mb-5">
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/pantry.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+               
+            </div>
+            <div>
+                <p class="font-bold font-inter">Glass Containers – Wood Lid</p>
+                <p><del class="text-red-600">$1000</del> <span class="text-green-800 font-bold">$800</span></p>
+                <p>Stackable, airtight, food-safe storage</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/box.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+               
+            </div>
+            <div>
+                <p class="font-bold font-inter">Glass Jars – Tray Pack</p>
+                <p><del class="text-red-600">$1200</del> <span class="text-green-800 font-bold">$900</span></p>
+                <p>Neat dry food storage with wood lids</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/vessels.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                
+            </div>
+            <div>
+                <p class="font-bold font-inter">Kitchen Tools – 8‑Piece Set</p>
+                <p><del class="text-red-600">$900</del> <span class="text-green-800 font-bold">$600</span></p>
+                <p>Wooden handles, durable metal heads</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/oven.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+               
+            </div>
+            <div>
+                <p class="font-bold font-inter">Microwave – Smart Heat</p>
+                <p><del class="text-red-600">$10000</del> <span class="text-green-800 font-bold">$8000</span></p>
+                <p>Fast cooking with auto sensor modes</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/mixer.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                
+            </div>
+            <div>
+                <p class="font-bold font-inter">Mixer – 3 Jar Combo</p>
+                <p><del class="text-red-600">$6000</del> <span class="text-green-800 font-bold">$3000</span></p>
+                <p>Powerful motor, multi‑purpose blending</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-[1365px] m-auto flex justify-around mb-5">
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/Moisturizer.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+               
+            </div>
+            <div>
+                <p class="font-bold font-inter">Hydra Miracle Gel – POND'S</p>
+                <p><del class="text-red-600">$900</del> <span class="text-green-800 font-bold">$300</span></p>
+                <p>Light, hydrating, hyaluronic boostk</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/foundation.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                
+            </div>
+            <div>
+                <p class="font-bold font-inter">Healthy Glow SPF 25 – CHANEL</p>
+                <p><del class="text-red-600">$1000</del> <span class="text-green-800 font-bold">$900</span></p>
+                <p>Smooth finish, natural tone, sun-safe</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/rosewater.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                
+            </div>
+            <div>
+                <p class="font-bold font-inter">Floral Face Mist – Rose Scent</p>
+                <p><del class="text-red-600">$1000</del> <span class="text-green-800 font-bold">$950</span></p>
+                <p>Refreshing spray, gentle fragrance</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/maskara.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+               
+            </div>
+            <div>
+                <p class="font-bold font-inter">Lash Sensational – Full Fan Effect</p>
+                <p><del class="text-red-600">$4000</del> <span class="text-green-800 font-bold">$3000</span></p>
+                <p>Volumizing, curl-enhancing, smudge-free</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="w-[250px]">
+            <div class="bg-gray-100 p-2 w-[250px] h-[250px] rounded-xl
+            bg-[url('/image/Kiko.jpg')] bg-cover bg-center bg-no-repeat shadow-xl transition delay-150 duration-300 hover:scale-101 mb-2">
+                <p class="flex flex-row-reverse"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg></p>
+                
+            </div>
+            <div>
+                <p class="font-bold font-inter">Milano Lip Cream – Metallic Pink</p>
+                <p><del class="text-red-600">$6000</del> <span class="text-green-800 font-bold">$3000</span></p>
+                <p>Bold pigment, creamy texture, long wear</p>
+                <button class="text-white bg-green-950 px-3 py-1 rounded-xl transition delay-150 duration-300 hover:scale-110 hover:bg-green-700 mt-2">Add to cart</button>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
