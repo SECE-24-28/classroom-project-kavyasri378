@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to JavaScript",
+    "post": "JavaScript is a powerful scripting language used to build dynamic and interactive web pages."
+  },
+  {
+    "id": 2,
+    "title": "What is React?",
+    "post": "React is a JavaScript library created by Facebook for building fast and interactive user interfaces."
+  },
+  {
+    "id": 3,
+    "title": "Understanding Node.js",
+    "post": "Node.js allows developers to use JavaScript to build backend applications by running on the V8 engine."
+  },
+  {
+    "id": 4,
+    "title": "Why Learn Express?",
+    "post": "Express is the most popular Node.js framework used to create APIs, middleware, and server-side applications easily."
+  }
+]
